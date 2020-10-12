@@ -1,0 +1,183 @@
+body {
+  font-family: 'Gothic A1', sans-serif;
+  max-width: 1080px;
+  margin: 0 auto;
+  float: none;
+}
+.block1 {
+  width: 60%;
+  text-align: center;
+  margin: 0px auto;
+}
+.block1 h1 {
+  font-size: 46px;
+  font-weight: bold;
+  color: #ce2a22;
+}
+aside img {
+  text-align: center;
+  width: 100%;
+  padding-top: 50px;
+  padding-bottom: 100px;
+}
+.block2 {
+  background-color: #ce2a22;
+  color: #f3cac8;
+  display: grid;
+  grid-template-columns: 1 1 1;
+  grid-gap: 150px 50px;
+  padding: 50px
+}
+.block2 h2 {
+  grid-column: 1 / 4;
+}
+.block2card {
+  display: grid;
+  grid-template-columns: 1;
+  grid-gap: 50px;
+}
+.block2 p {
+  text-decoration: underline;
+}
+.block2 img {
+  width: 100%
+}
+.block3 {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  grid-gap: 50px;
+  padding: 50px
+}
+.block3card {
+  display: grid
+  grid-template-columns: 1;
+  grid-gap: 50px;
+}
+.block3 img {
+  width: 100%;
+}
+.block4 {
+  margin-bottom: 100px;
+}
+.block4 p {
+  display: inline;
+  padding: 20px;
+}
+.block4 img {
+  text-align: center;
+  width: 100%;
+  padding-top: 20px;
+  padding-bottom: 20px;
+}
+/* Images in Block 5 stopped showing up at some point, even when I deleted all related Block 5 CSS code. Couldn't figure out how to get them back. Hopefully soon I'll be caught up on my other work and not have to keep doing these assignments Sunday night so I can ask questions in time.*/
+.saleitems {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr 1fr;
+}
+.block5card {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+}
+.block5card img {
+  grid-column: 1/3;
+  width: 100%;
+}
+.block6 {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  grid-gap: 50px;
+  padding: 50px
+}
+.block6card {
+  display: grid
+  grid-template-columns: 1;
+  grid-gap: 50px;
+}
+.block6 img {
+  width: 100%;
+}
+.block7 {
+  background-color: #2a2512;
+  color: #bcbbb5;
+  display: grid;
+  grid-template-columns: 300px 100px 1fr;
+  padding: 100px;
+}
+.block7 h3 {
+  grid-column: 1/2;
+  grid-row: 1/2
+}
+.block7text {
+  grid-column: 1/2;
+  grid-row: 2/3
+}
+.block7button {
+  grid-column: 1/2;
+  grid-row: 3/4;
+  padding-top: 20px;
+}
+.lilblurb {
+  grid-column: 2/3;
+  grid-row: 1/2;
+  font-size: .5em;
+  font-weight: bolder;
+}
+.block7 img {
+  grid-column: 3/4;
+  grid-row: 1/4;
+  width: 100%;
+}
+.block8 {
+  background-color: #242222;
+  color: white;
+  padding: 25px 50px 25px 50px;
+  margin-top: 100px;
+  margin-bottom: 100px;
+}
+.block9 {
+  display: grid;
+  grid-template-columns: 50% 40% 10%;
+  grid-templatep-rows: 3em 6em 50px 50px;
+  margin-bottom: 100px;
+}
+.block9 img {
+  grid-column: 1/2;
+  grid-row: 1/5;
+  width: 80%;
+}
+.block9 h2 {
+  font-size: 46px;
+  width: 70%;
+}
+.block9date {
+  text-align: right;
+}
+.block9 h3 {
+  grid-column: 2/3;
+  font-size: 46px;
+  width: 70%;
+}
+.block9desc {
+  grid-column: 2/3
+}
+.block9button {
+  grid-column: 2/3
+}
+.boxedin {
+  width: 50%;
+}
+.rightalign {
+  text-align: right;
+}
+.thin {
+  font-weight: 100;
+}
+.strike {
+  text-decoration: line-through;
+}
+.underline {
+  text-decoration: underline;
+}
+.redtext {
+  color:#ce2a22; 
+}
